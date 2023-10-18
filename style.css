@@ -16,9 +16,16 @@ h3 {
   text-align: center;
 }
 
+h1 {
+  padding-right: 20px;
+}
+
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Containers */
@@ -35,6 +42,13 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+#portfolio {
+  display: flex;
+  padding-top: 0;
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Paragraphs */
@@ -75,4 +89,17 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.aboutSection {
+  display: flex;
+}
+
+.aboutText {
+  display: block;
+  text-align: left;
+}
+
+.portfolioName {
+  padding-top: 60px;
 }
